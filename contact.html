@@ -16,10 +16,11 @@
         }
     
         Body{
-            background: rgb(50, 50, 50);
+            background-image: url(https://cdn.hipwallpaper.com/i/31/7/7Szqk4.jpg);
             color: aquamarine;
             font-family: 'Permanent Marker', cursive;
         }
+
     </style>
 </head>
 <body>
@@ -35,7 +36,7 @@
                     <a class="nav-link text-white" href="index.html">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="https://github.com/Nolanbt">GitHub</a>
+                    <a class="nav-link text-white" href="https://www.linkedin.com/in/nolan-terpstra-9012741ab/">LinkedIn</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="portfolio.html">Works by Me</a>
@@ -44,24 +45,25 @@
         </div>
     </nav>
 
-    <div class="container">
+    <main class="container pb-5">
         <h2>Contact Me</h2>
         <form>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Name:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Who are you?">
+                <label for="name">Name:</label>
+                <input class="form-control" id="name">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Leave a message:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="contact-message">Leave a message:</label>
+                <textarea class="form-control" id="contact-message" rows="3"></textarea>
             </div>
+            <button type="button" class="btn btn-info">Send</button>
         </form>
-    </div>
 
-</nav>
+    </main>
+
 </body>
 </html>

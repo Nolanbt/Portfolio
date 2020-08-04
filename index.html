@@ -16,10 +16,19 @@
         }
     
         Body{
-            background: rgb(50, 50, 50);
+            background-image: url(https://cdn.hipwallpaper.com/i/31/7/7Szqk4.jpg);
             color: aquamarine;
             font-family: 'Permanent Marker', cursive;
         }
+
+        #git {
+            color:#0c5460;
+        }
+
+        #linkdin{
+            color: #0c5460;
+        }
+
     </style>
 </head>
 <body>
@@ -35,7 +44,7 @@
                     <a class="nav-link text-white" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="https://github.com/Nolanbt">GitHub</a>
+                    <a class="nav-link text-white" href="https://www.linkedin.com/in/nolan-terpstra-9012741ab/">LinkedIn</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="portfolio.html">Works by Me</a>
@@ -44,28 +53,34 @@
         </div>
     </nav>
 
-    <main class="container w-75 mx-auto bg-transparent vw-100 vh-100">
+    <main class="container w-75 mx-auto bg-transparent shadow-lg vw-100 vh-100 rounded">
         <div class="row">
-            <!-- This is me pic below -->
-            <div class="col-5">
+            <!-- This is me / pic below -->
+            <div class="col-sm-5">
                 <header class="row">
                     <h2 class="col">This is me:</h2>
                 </header>
-                <section class="row">
-                    <img class="col-9" src="PhotoOfMe.jpg" alt="Placeholder for pic of me">
-                </section>
+                <div class="row">
+                    <img class="col-9" src="PhotoOfMe.jpg" alt="Picture of Nolan Terpstra">
+                </div>
             </div>
-            <!-- About me bio below -->
-            <div class="col-7">
+            <!-- About me / bio below -->
+            <div class="col-sm-7">
                 <header class="row">
                     <h2 class="col">This is about me:</h2>
                 </header>
-                <section class="row">
+                <div class="row">
                     <p class="col">Welcome, My name is Nolan, I am a full stack web developer in training. Front-end devolping is coming along nicely, but haven't had the opportinty to delve into the back end just yet. </p>
-                </section>
+                </div>
             </div>
         </div>
+        
     </main>
+    <br>
+    <br>
 
+    <footer class="alert alert-info position-sticky sticky-bottom text-center">
+        Nolan Terpstra / <a id="linkdin" href="https://www.linkedin.com/in/nolan-terpstra-9012741ab/">LinkedIn /</a> <a id="git" href="https://github.com/Nolanbt">GitHub</a>
+    </footer>
 </body>
 </html>
